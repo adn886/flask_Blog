@@ -57,6 +57,8 @@ def home():
 def about():
     return render_template('about.html',params=params)
 
+print("hiiiiiiii")
+
 @app.route("/about")
 def dashbord():
     return render_template('about.html',params=params)
